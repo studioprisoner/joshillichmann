@@ -10,9 +10,11 @@ const context = {
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
-    <Nav />
-    <Component {...pageProps} />
+    <div className="mx-auto">
+      <div className="max-w-4xl mx-auto">
+        <Nav />
+        <Component {...pageProps} />
+      </div>
     </div>
   )
 }

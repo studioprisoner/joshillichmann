@@ -24,11 +24,11 @@ const Nav = () => {
                             Menu open: "hidden", Menu closed: "block"
                             */}
                         <svg className={`h-6 w-6 ${isOpen ? "hidden" : "block" }`} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                <path strokeLinecap="round" strokedLineJoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                                <path strokeLinecap="round" strokedlinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                         {/* Icon when menu open */}
                         <svg className={`h-6 w-6 ${isOpen ? "block" : "hidden" }`} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path strokeLinecap="round" strokedLineJoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                            <path strokeLinecap="round" strokedlinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                         </svg>
                         </button>
                     </div>
@@ -43,6 +43,26 @@ const Nav = () => {
                             </Link>
                         </div>
                     </div>
+                    <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                    <div className="ml-3 relative">
+                        <Link href="/">
+                            <a className="px-3 py-2 font-telegraf rounded-md text-lg font-medium">
+                                Work
+                            </a>
+                        </Link>
+                        <Link href="/">
+                            <a className="px-3 py-2 font-telegraf rounded-md text-lg font-medium">
+                                Services
+                            </a>
+                        </Link>
+                        <Link href="/">
+                            <a className="px-3 py-2 font-telegraf rounded-md text-lg font-medium">
+                                Contact
+                            </a>
+                        </Link>
+                    </div>
+
+                </div>
                 </div>
             </div>
         </nav>
