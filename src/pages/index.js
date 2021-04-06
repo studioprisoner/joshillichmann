@@ -17,7 +17,7 @@ export default function Home() {
                 <svg className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392">
                   <defs>
                     <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                      <rect x="0" y="0" width="4" height="4" className="text-gray-500" fill="currentColor" />
+                      <rect x="0" y="0" width="4" height="4" className="text-blue-500" fill="currentColor" />
                     </pattern>
                   </defs>
                   <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
@@ -190,11 +190,49 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="flex justify-center items-center px-5 bg-gradient-to-tr from-fuchsia-100 to-pink-600  relative overflow-hidden bg-cover w-2/4 rounded-r-lg">
-                    <img className="" src="../images/kalani-flower.png" alt="Kalani Log" />
+                  <div className="flex justify-center items-center px-5 bg-gradient-to-tr from-indigo-900 to-fuchsia-600  relative overflow-hidden bg-cover w-2/4 rounded-r-lg">
+                    <img className="h-52" src="../images/kalani-flower.png" alt="Kalani Log" />
                   </div>
                 </div>
               </div>
+              <div className="mt-12">
+                <div className="rounded-md shadow-md bg-white flex flex-row-reverse">
+                  <div className="px-10 py-10 lg:h-80 text-left w-2/4 flex-shrink-0 flex-grow-0">
+                    <div className="h-full box-border flex flex-col justify-between">
+                      <div>
+                        <h3 className="text-3xl font-semibold tracking-wider">Franklin Gothic</h3>
+                        <p className="mt-4 text-gray-500">Informational Brochure design for Type Foundary on the history and use of Franklin Gothic</p>
+                      </div>
+                      <div>
+                        <button type="button" className="w-auto inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-lg shadow-sm text-white bg-red-500 hover:bg-red-700 focus:outline-none">
+                          View Project
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex justify-center items-center px-5 bg-gradient-to-bl from-yellow-400 to-red-600 relative overflow-hidden bg-cover w-2/4 rounded-l-lg">
+                  </div>
+                </div>
+              </div>
+               <div className="mt-12">
+               <div className="rounded-md shadow-md bg-white flex flex-row">
+                 <div className="px-10 py-10 lg:h-80 text-left w-2/4 flex-shrink-0 flex-grow-0">
+                   <div className="h-full box-border flex flex-col justify-between">
+                     <div>
+                       <h3 className="text-3xl font-semibold tracking-wider">Travel Iceland</h3>
+                       <p className="mt-4 text-gray-500">Website Design and Development.</p>
+                     </div>
+                     <div>
+                       <button type="button" className="w-auto inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-lg shadow-sm text-white bg-blue-900 hover:bg-blue-700 focus:outline-none">
+                         View Project
+                       </button>
+                     </div>
+                   </div>
+                 </div>
+                 <div className="flex justify-center items-center px-5 bg-gradient-to-tr from-blue-900 to-green-600 relative overflow-hidden bg-cover w-2/4 rounded-r-lg">
+                 </div>
+               </div>
+             </div>
           </div>
         </div>
         </section>
